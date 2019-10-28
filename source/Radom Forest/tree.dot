@@ -1,0 +1,37 @@
+digraph Tree {
+node [shape=box, style="rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="prev_count <= 25.5\nmse = 6880753796.1\nsamples = 9\nvalue = 155672.6"] ;
+1 [label="mse = 0.0\nsamples = 1\nvalue = 317012.0"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="after_count <= 17.5\nmse = 1075372077.9\nsamples = 8\nvalue = 118440.5"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+3 [label="News_Count <= 267.5\nmse = 242861831.6\nsamples = 6\nvalue = 137663.3"] ;
+2 -> 3 ;
+4 [label="mid_count <= 21.5\nmse = 124257535.5\nsamples = 5\nvalue = 133595.0"] ;
+3 -> 4 ;
+5 [label="Days_Open_4 <= 0.5\nmse = 27379114.0\nsamples = 4\nvalue = 127715.0"] ;
+4 -> 5 ;
+6 [label="Day_10 <= 0.5\nmse = 9871145.8\nsamples = 3\nvalue = 129672.2"] ;
+5 -> 6 ;
+7 [label="WeekDay_4 <= 0.5\nmse = 2896804.0\nsamples = 2\nvalue = 128298.0"] ;
+6 -> 7 ;
+8 [label="mse = 0.0\nsamples = 1\nvalue = 126596.0"] ;
+7 -> 8 ;
+9 [label="mse = 0.0\nsamples = 1\nvalue = 130000.0"] ;
+7 -> 9 ;
+10 [label="mse = 0.0\nsamples = 1\nvalue = 135169.0"] ;
+6 -> 10 ;
+11 [label="mse = 0.0\nsamples = 1\nvalue = 117929.0"] ;
+5 -> 11 ;
+12 [label="mse = 0.0\nsamples = 1\nvalue = 151235.0"] ;
+4 -> 12 ;
+13 [label="mse = 0.0\nsamples = 1\nvalue = 170210.0"] ;
+3 -> 13 ;
+14 [label="High_Tmp <= 15.3\nmse = 246413907.0\nsamples = 2\nvalue = 75189.0"] ;
+2 -> 14 ;
+15 [label="mse = 0.0\nsamples = 1\nvalue = 48000.0"] ;
+14 -> 15 ;
+16 [label="mse = 0.0\nsamples = 1\nvalue = 84252.0"] ;
+14 -> 16 ;
+}
